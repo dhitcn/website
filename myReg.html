@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+		<link rel="stylesheet" href="css/product.css" type="text/css" />
+		<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+			$().ready(function() {
+				$(".card-deck").children(".card").click(function(e) {
+					location.href = "myDetail.html";
+				});
+
+			});
+		</script>
+	</head>
+
+	<body>
+		<div class="container" style="font-size: 0.5rem;">
+
+			<!-- 导航 -->
+			<nav class="navbar navbar-expand-lg navbar-light bg-light" style="font-size: 10px;">
+				<a class="navbar-brand" href="#">
+					<img class="img-fluid" src="img/logo.png" style="width:30px; height:30px;" />
+				</a>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+					</ul>
+					<div class="form-inline">
+						<span>您好,欢迎光临 <b>万维网（北京）科技有限公司</b>!</span>
+					</div>
+				</div>
+			</nav>
+			<!-- 导航 -->
+
+			<!--产品-->
+			<div class="row">
+				<div class="col-12">
+
+					<div class="row">
+						<div class="col-6" align="center">
+							<div class="mt-5">
+								<img style="width:300px; height: 300px;" src="img/ny003.jpg" />
+							</div>
+						</div>
+						<div class="col-4">
+							<form>
+								<div class="form-group form-inline row mt-3 mb-3 border-bottom">
+									<div class="col-6">
+										<h4>注册新用户</h4>
+									</div>
+									<div class="col-6" align="right">
+										<h6>已注册,现在 <a href="#"><b>登录</b></a></h6>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-12">
+										<div class="form-group form-inline row">
+											<input type="text" placeholder="请输入验证码" class="form-control col-8" />
+											<div class="col-4">
+												<img style="width:40px; height: 40px;" src="img/logo.png"  />
+											</div>
+										</div>
+										<div class="form-group row mt-4">
+											<input type="text" placeholder="输入手机号" class="form-control col-8" />
+											<button type="submit" class="btn btn-primary col-4">获取验证码</button>
+										</div>
+										<div class="form-group row mt-4">
+											<input type="text" placeholder="填写手机验证码" class="form-control col-12" />
+										</div>
+										<div class="form-group row mt-4">
+											<input type="password" class="form-control col-12" placeholder="设定登录密码" />
+										</div>
+										<div class="form-group row mt-4">
+											<input type="password" class="form-control col-12" placeholder="再次输入密码" />
+										</div>
+										<div class="form-group form-inline row mt-4">
+											<input type="checkbox" class="form-control" />接受
+											<a href="#">《服务条款》</a>
+										</div>
+										<div class="form-group row mt-4">
+											<button type="submit" class="btn btn-primary col-12">立即注册</button>
+										</div>
+
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--产品-->
+
+			<!-- 帮助 -->
+			<div class="row bg-light mt-4 pt-4">
+				<div class="col-12">
+					<div class="row">
+						<div class="col-12" align="center">
+							<div>
+								Copyright 2000 - 2019 All Rights Reserved
+							</div>
+							<div>
+								爱慕菲尔服饰（湖南）有限公司
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 帮助服务 -->
+
+		</div>
+	</body>
+
+</html>
